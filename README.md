@@ -65,10 +65,20 @@ The behaviour is super simple: every time you select a cryptocurrency in the dro
 **To do**
 
 - Create a one-page website with the following items:
-  - Dropdown with all the currencies
-  - Chart that shows the current cryptocurrency historical data
+  - Dropdown with all the currencies.
+  - Chart that shows the current cryptocurrency historical data.
 - Every time you change the value in the dropdown, the chart has to show the selected cryptocurrency data.
 
 ## 4 - Gryffindor
 
-Sent information about the selected currency to a Google Analytics account.
+Last, but not least, we are going to integrate [Google Analytics](https://www.google.com/analytics/) into our application. First of all, you have to create and configure an Analytics account in the project. The goal of this iteration is to sent some information to the account.
+
+When the user selects a cryptocurrency in the dropdown, you have to send an event to Google Analytics to track that this currency has been selected, so we can have stats about which currency is the most visited. You will need to implement an [Event Tracking](https://developers.google.com/analytics/devguides/collection/analyticsjs/events) that will be triggered when you select an element in the dropdown.
+
+**To Do**
+
+- Create a Google Analytics account.
+- Trigger an event when the dropdown changes its value.
+- Be able to see the tracked information in Google Analytics.
+
+Good luck, and happy coding! :)
