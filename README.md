@@ -55,7 +55,19 @@ The tables will have a *one to many relation*, that will join the cryptocurrency
 
 At this point, you already have a script that is fetching information from an API, and stores this information inside our own PostgreSQL database. Now it's time to show this information in a chart. To do that, you are going to use [chart.js](https://www.chartjs.org/).
 
-In this iteration, you have to create a one-page website that has to fetch the information from the database, and show this information in a chart.
+In this iteration, you have to create a one-page website that has to fetch the information from the database, and show this information in a chart. The website has to have the following elements:
+
+- Dropdown with all the cryptocurrencies you have in the database.
+- Chart with the historical data of the current cryptocurrency selected in the dropdown.
+
+The behaviour is super simple: every time you select a cryptocurrency in the dropdown, the chart has to show the related information in the database.
+
+**To do**
+
+- Create a one-page website with the following items:
+  - Dropdown with all the currencies
+  - Chart that shows the current cryptocurrency historical data
+- Every time you change the value in the dropdown, the chart has to show the selected cryptocurrency data.
 
 ## 4 - Gryffindor
 
