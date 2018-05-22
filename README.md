@@ -2,15 +2,22 @@
 
 # Ironhack Coding Challenge | Data Engineering
 
-Welcome to Ironhack code challenge! We hope you find it interesting and helps you becoming Ironhack Data Engineering. We don't provide any kind of starter code, so feel free to configure your environment to achieve the proposed goals.
+Welcome to Ironhack code challenge!
 
-During the execution of this test, you will create a crypt-comparisson, where you will create an small website to show a chart with the information of a selected cryptcurrency.
+We hope you find this challenge interesting, but most important, it leads the way for you to become a Data Engineer at Ironhack. We won't provide any kind of starter code, so feel free to configure your own environment to achieve the proposed goals.
 
-Once you have completed the code challenge, send us your Github repository link with the solution to product@ironhack.com.
+During the execution of this test, you will develop a crypt-comparison tool: a small website that will display a chart with information from a selected cryptocurrency.
 
-This challenge is composed by four different parts and is made to test different skills that a Data Engineer should have. You will use an external API, Python, PostgreSQL, HTML and Chart JS. You don't have to do all of them. The more you do, the better knowledge we will have. We don't like boring iterations, so we have named each part of the challenge differently. We hope you like Harry Potter ;)
+The challenge is composed of four different blocks and it was intended to test the skills we think a Data Engineer should have. You will use an external API, Python, PostgreSQL, HTML and ChartJS.
 
-## 1 - Hufflepuff
+Keep in mind that you are not required to complete the entire challenge in order to succeed, but of course, the more you achieve, the better.
+
+As you will see, we don't like boring iterations, so we have named each block of the challenge differently — and we hope you like Harry Potter as much as we do 🧙
+
+Upon challenge completion, please send us the GitHub repository link with the solution at product@ironhack.com.
+
+
+## 1. Hufflepuff
 
 First of all, we want to fetch the historical data of the following cryptocurrencies:
 
@@ -20,18 +27,20 @@ First of all, we want to fetch the historical data of the following cryptocurren
 - Litecoin (LTC)
 - Stellar (XLM)
 
-You have to fetch all the information since 1st of January of 2016, and you have to use the [CoinAPI.io](https://www.coinapi.io/) API. Read [the documentation](https://docs.coinapi.io/) to find out which API method you will need to fetch the historical data of each cryptocurrency. Note the following things about the API:
+You have to fetch all the information since January 1st of 2016, and you have to use the [CoinAPI.io](https://www.coinapi.io/) API. Read [the documentation](https://docs.coinapi.io/) to find out which API methods you will need to fetch the historical data of each cryptocurrency.
 
-- **API Key**. This API requires a key to allow you launch queries, so you'll have to create an API Key before proceed.
-- **Free Account**.  If you check out the [API Pricing](https://www.coinapi.io/pricing), you'll see that the free accounts have a limitation of 100 daily requests. In the next iteration of the exercise we will solve this limitation, but keep in mind that you have this daily limit while fetching the information.
+Note the following things about the API:
+
+- **API Key**: this API requires a key to allow you to launch queries, so you'll have to create an API key to proceed.
+- **Free Account**: if you check out the [API Pricing](https://www.coinapi.io/pricing), you'll see that the free accounts have a limitation of 100 daily requests. In the next iteration of the exercise we will solve this limitation, but keep in mind that you have this daily limit while fetching the information.
 
 ---
 
 **To do**
 
-- Create a script with Python that, given a cryptocurrency symbol (i.e. BTC), it returns the historical data fetched from the API.
+- Create a script in Python that given a cryptocurrency symbol (i.e. BTC), it returns the historical data fetched from the API.
 
-## 2 - Ravenclaw
+## 2. Ravenclaw
 
 The second step of the project will allow us exceed the API daily limit. We are going to store the information in a PostgreSQL database. To do that, you have to review the API response structure, and create the correct database structure to store this information.
 
@@ -51,7 +60,7 @@ The tables will have a *one to many relation*, that will join the cryptocurrency
 - These tables will have a *one to many* relation.
 - Feel free to use any database adapter to communicate Python and PostgreSQL.
 
-## 3 - Slytherin
+## 3. Slytherin
 
 At this point, you already have a script that is fetching information from an API, and stores this information inside our own PostgreSQL database. Now it's time to show this information in a chart. To do that, you are going to use [chart.js](https://www.chartjs.org/).
 
