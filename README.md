@@ -34,8 +34,6 @@ Note the following things about the API:
 - **API Key**: this API requires a key to allow you to launch queries, so you'll have to create an API key to proceed.
 - **Free Account**: if you check out the [API Pricing](https://www.coinapi.io/pricing), you'll see that the free accounts have a limitation of 100 daily requests. In the next iteration of the exercise we will solve this limitation, but keep in mind that you have this daily limit while fetching the information.
 
----
-
 **To do**
 
 - Create a script in Python that given a cryptocurrency symbol (i.e. BTC), it returns the historical data fetched from the API.
@@ -50,8 +48,6 @@ Our recommendation here is to create two different tables:
 - The second one will store all the historical data.
 
 The tables will have a *one to many relation*, that will join the cryptocurrency with his historical data.
-
----
 
 **To do**
 
@@ -71,8 +67,6 @@ In this iteration, you have to create a one-page website that has to fetch the i
 
 The behaviour is super simple: every time you select a cryptocurrency in the dropdown, the chart has to show the related information in the database.
 
----
-
 **To do**
 
 - Create a one-page website with the following items:
@@ -85,8 +79,6 @@ The behaviour is super simple: every time you select a cryptocurrency in the dro
 Last, but not least, we are going to integrate [Google Analytics](https://www.google.com/analytics/) into our application. First of all, you have to create and configure an Analytics account in the project. The goal of this iteration is to sent some information to the account.
 
 When the user selects a cryptocurrency in the dropdown, you have to send an event to Google Analytics to track that this currency has been selected, so we can have stats about which currency is the most visited. You will need to implement an [Event Tracking](https://developers.google.com/analytics/devguides/collection/analyticsjs/events) that will be triggered when you select an element in the dropdown.
-
----
 
 **To Do**
 
