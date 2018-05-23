@@ -71,6 +71,8 @@ In this iteration, you have to create a one-page website that has to fetch the i
 
 The behaviour is super simple: every time you select a cryptocurrency in the dropdown, the chart has to show the related information in the database.
 
+---
+
 **To do**
 
 - Create a one-page website with the following items:
@@ -83,6 +85,8 @@ The behaviour is super simple: every time you select a cryptocurrency in the dro
 Last, but not least, we are going to integrate [Google Analytics](https://www.google.com/analytics/) into our application. First of all, you have to create and configure an Analytics account in the project. The goal of this iteration is to sent some information to the account.
 
 When the user selects a cryptocurrency in the dropdown, you have to send an event to Google Analytics to track that this currency has been selected, so we can have stats about which currency is the most visited. You will need to implement an [Event Tracking](https://developers.google.com/analytics/devguides/collection/analyticsjs/events) that will be triggered when you select an element in the dropdown.
+
+---
 
 **To Do**
 
