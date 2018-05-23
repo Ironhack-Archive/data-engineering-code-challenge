@@ -78,7 +78,7 @@ The behaviour is super simple: every time you select a cryptocurrency in the dro
   - Chart that shows the current cryptocurrency historical data.
 - Every time you change the value in the dropdown, the chart has to show the selected cryptocurrency data.
 
-## 4 - Gryffindor
+## 4. Gryffindor
 
 Last, but not least, we are going to integrate [Google Analytics](https://www.google.com/analytics/) into our application. First of all, you have to create and configure an Analytics account in the project. The goal of this iteration is to sent some information to the account.
 
